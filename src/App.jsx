@@ -1,10 +1,12 @@
-import MyComponent from './MyComponent';
+import React from 'react';
+import './App.css';
+import UserList from './UserList';
 
 function App() {
   return (
-    <div>
-      <h1>Главное приложение</h1>
-      <MyComponent />
+    <div className="App">
+      <h1>Список пользователей</h1>
+      <UserList />
     </div>
   );
 }
